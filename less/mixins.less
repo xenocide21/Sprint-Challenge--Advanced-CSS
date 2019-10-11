@@ -1,1 +1,24 @@
 // Mixins Here
+
+.flexjustify(@justify, @align){
+    display:flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+.center(){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} //did not use, good to have though!
+.btn-selector(@bg-color: black, @width: 200px, @txt-color: white){
+    display: block;
+    background-color: @bg-color;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@txt-color;
+    padding: 10px;
+}

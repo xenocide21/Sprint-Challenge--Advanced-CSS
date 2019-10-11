@@ -1,1 +1,39 @@
 // Navigation code here
+header{
+    .center();
+    flex-direction: column;
+    .navigation{
+        h1{
+            margin: 0 auto;
+            margin-top: 2%;
+            font-size: 5rem;
+        }
+        width: 130%;
+        background-color: @nav-bg;
+
+        @media @phone{
+            width: 100%;
+        }
+    }
+    .navbar{
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        a{
+            text-decoration: none;
+            margin: 3%;
+            font-size: 2.2rem;
+            color: @nav-font;
+            @media @phone{
+                font-size: 2rem;
+            }
+        }
+    }
+    .himg {
+        max-width: 100%;
+        img{
+        max-width: 100%;
+        }
+    }    
+    
+}
