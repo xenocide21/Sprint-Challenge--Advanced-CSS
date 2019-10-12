@@ -17,13 +17,9 @@ header{
     }
     .navbar{
         width: 100%;
-        margin-top: 3%;
-        margin-bottom: 3%;
+        .margin(3% 0 3% 0);
         a{
-            text-decoration: none;
-            margin: 3%;
-            font-size: 2.2rem;
-            color: @nav-font;
+            .atag-layout(2.2rem, 3%, @nav-font);
             @media @phone{
                 font-size: 2rem;
             }
