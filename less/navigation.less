@@ -1,1 +1,35 @@
 // Navigation code here
+header{
+    .center();
+    flex-direction: column;
+    .navigation{
+        h1{
+            margin: 0 auto;
+            margin-top: 2%;
+            font-size: 5rem;
+        }
+        width: 130%;
+        background-color: @nav-bg;
+
+        @media @phone{
+            width: 100%;
+        }
+    }
+    .navbar{
+        width: 100%;
+        .margin(3% 0 3% 0);
+        a{
+            .atag-layout(2.2rem, 3%, @nav-font);
+            @media @phone{
+                font-size: 2rem;
+            }
+        }
+    }
+    .himg {
+        max-width: 100%;
+        img{
+        max-width: 100%;
+        }
+    }    
+    
+}
